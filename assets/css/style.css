@@ -19172,6 +19172,7 @@ span.sr-only {
     }
 
     .divcard4 {
+        height: 415px !important;
         border-radius: 6px;
         padding: 20px 20px !important;
     }
@@ -22196,6 +22197,8 @@ canvas {
     transform: rotate(0deg) translate(0, -50%);
 }
 
+
+
 @keyframes speeen2 {
     from {
         transform: rotate(180deg) translate(-50%, -50%);
@@ -22213,6 +22216,7 @@ canvas {
 }
 
 .divcard2 {
+    height: 420px;
     border-radius: 6px;
     padding: 45px 40px;
 }
@@ -22223,6 +22227,7 @@ canvas {
 }
 
 .divcard4 {
+    height: 520px;
     border-radius: 6px;
     padding: 45px 40px;
 }
