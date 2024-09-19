@@ -22216,12 +22216,22 @@ canvas {
 }
 
 .divcard2 {
-    height: 420px;
     border-radius: 6px;
     padding: 45px 40px;
 }
 
 .divcard2:hover {
+    padding: 45px 40px;
+    background-color: #f9004d !important;
+}
+
+.divcard21 {
+    height: 450px;
+    border-radius: 6px;
+    padding: 45px 40px;
+}
+
+.divcard21:hover {
     padding: 45px 40px;
     background-color: #f9004d !important;
 }
