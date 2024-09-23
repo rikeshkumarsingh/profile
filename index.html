@@ -70,6 +70,9 @@
                             <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li> -->
                             <li class="nav-item"><a class="nav-link" href="#blog">blog</a></li>
                             <li class="nav-item"><a class="nav-link" href="#contacts">Contact</a></li>
+                            <li class="nav-item"> <a class="nav-link" href="assets/file/Rikesh kumar.pdf"
+                                    download="Rikesh_kumar_resume.pdf">Download</a>
+                            </li>
                         </ul>
                         <!-- End Mainmanu Nav -->
                     </nav>
@@ -121,6 +124,18 @@
                     <li class="nav-item"><a class="nav-link smoth-animation" href="#pricing">Pricing</a></li> -->
                     <li class="nav-item"><a class="nav-link smoth-animation" href="#blog">blog</a></li>
                     <li class="nav-item"><a class="nav-link smoth-animation" href="#contacts">Contact</a></li>
+                    <li class="nav-item">
+                        <a href="#" onclick="downloadFile()">Download</a>
+                    </li>
+                    <script>
+                        function downloadFile() {
+                            const link = document.createElement('a');
+                            link.href = 'assets/file/Rikesh kumar.pdf';
+                            link.download = 'Rikesh_kumar_resume.pdf';
+                            link.click();
+                        }
+                    </script>
+
                 </ul>
                 <!-- social sharea area -->
                 <div class="social-share-style-1 mt--40">
@@ -194,7 +209,7 @@
                                                 <span class="cd-words-wrapper">
                                                     <b class="is-visible">Full Stack Developer.</b>
                                                     <b class="is-hidden">Professional Coder.</b>
-                                                    <b class="is-hidden">Full Stack Developer.</b>
+                                                    <b class="is-hidden">Software Engineer.</b>
                                                 </span>
                                             </span>
                                             <!-- type headline end -->
@@ -202,7 +217,8 @@
                                     </h1>
 
                                     <div>
-                                        <p class="description">I am Rikesh Kumar, a Full Stack Developer based in
+                                        <p class="description skillback">I am Rikesh Kumar, a Full Stack Developer based
+                                            in
                                             Bengaluru, Karnataka, specializing in both front-end and back-end
                                             development. Currently, I contribute to Ingroinfo Software Solution Pvt Ltd,
                                             where I excel in delivering high-quality solutions. My career is supported
